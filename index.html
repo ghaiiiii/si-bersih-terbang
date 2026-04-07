@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Si Bersih Terbang</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>Si Bersih Terbang</h1>
+  <p>Drone Pembersih Kaca Gedung</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#layanan">Layanan</a>
+  <a href="#tentang">Tentang</a>
+  <a href="#pesan">Pesan</a>
+</nav>
+
+<section class="hero" id="home">
+  <div>
+    <h1>Si Bersih Terbang</h1>
+    <p>class="tagline">
+      Bersih Tanpa Batas, Dari Udara 🚁
+    </p>
+
+    <p class="desc">
+      Kami menghadirkan solusi modern untuk pembersihan kaca gedung tinggi 
+      menggunakan teknologi drone. Lebih aman, cepat, dan efisien tanpa 
+      mengganggu aktivitas di dalam gedung.
+    </p>
+
+    <button onclick="scrollToForm()">Pesan Sekarang</button>
+  </div>
+</section>
+
+<section id="layanan">
+  <h2>Layanan Kami</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Pembersihan Kaca</h3>
+      <p>Menggunakan drone untuk membersihkan kaca gedung tinggi.</p>
+    </div>
+    <div class="card">
+      <h3>Inspeksi Gedung</h3>
+      <p>Pengecekan kondisi bangunan tanpa risiko.</p>
+    </div>
+    <div class="card">
+      <h3>Maintenance Rutin</h3>
+      <p>Perawatan berkala untuk gedung Anda.</p>
+    </div>
+    <div class="card">
+      <h3>Pembersihan Panel Surya</h3>
+      <p>Pembersihan panel surya dari debu, kotoran, dan kerak dengan hati-hati agar tidak merusak panel</p>
+    </div>
+  </div>
+</section>
+
+<section id="tentang">
+  <h2>Tentang Kami</h2>
+  <p>
+    Si Bersih Terbang adalah perusahaan inovatif yang menggunakan teknologi drone
+    untuk membersihkan kaca gedung tinggi dengan aman, cepat, dan efisien.
+  </p>
+</section>
+
+<section id="pesan">
+  <h2>Form Pemesanan</h2>
+
+  <form id="bookingForm">
+    <input type="text" id="nama" placeholder="Nama" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="tel" id="telepon" placeholder="No. Telepon" required>
+    <input type="text" id="alamat" placeholder="Alamat" required>
+    <textarea id="pesanText" placeholder="Pesan"></textarea>
+
+    <button type="submit">Kirim</button>
+  </form>
+
+  <div class="wa-section">
+    <p>Atau hubungi kami langsung:</p>
+    <a href="https://wa.me/6285693008766" target="_blank" class="wa-btn">
+      Chat WhatsApp
+    </a>
+  </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

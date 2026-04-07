@@ -1,0 +1,117 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f7fb;
+}
+
+header {
+  background: #0a3d62;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background: #1e5f8a;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color:aliceblue
+    }
+
+    .hero-content {
+      max-width: 700px;
+      animation: fadeIn 1.5s ease;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      font-size: 20px;
+      color: #38bdf8;
+      margin-bottom: 15px;
+    }
+
+    .desc {
+      font-size: 16px;
+      color: #cbd5f5;
+      margin-bottom: 25px;
+      line-height: 1.6;
+    }
+
+section {
+      padding: 50px;
+      text-align: center;
+    }
+    
+.services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background: #00a8ff;
+  color: white;
+  border: none;
+}
+
+.wa-section {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .wa-btn {
+      display: inline-block;
+      margin-top: 10px;
+      background: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .wa-btn:hover {
+      background: #1ebe5d;
+    }
